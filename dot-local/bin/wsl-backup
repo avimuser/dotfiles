@@ -1,0 +1,4 @@
+#!/bin/bash
+
+WINUSER=$(/mnt/c/WINDOWS/system32/whoami.exe | sed "s/${HOSTNAME}\\\//" | tr -d '\r')
+( cd $HOME && tar czf /mnt/c/Users/${WINUSER}/Backup.tar.gz * )
