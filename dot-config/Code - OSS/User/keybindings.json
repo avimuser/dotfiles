@@ -1,0 +1,36 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Navigation
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor",
+        "when": "editorTextFocus"
+    },
+
+    // File explorer
+
+    {
+        "key": "alt+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "alt+d",
+        "command": "explorer.newFolder"
+    },
+
+    // UI
+
+    {
+        "key": "alt+p",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "alt+r",
+        "command": "workbench.action.quickOpen"
+    },
+]

@@ -1,0 +1,42 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.layoutControl.enabled": false,
+    "workbench.colorTheme": "Rosé Pine",
+
+    "window.menuBarVisibility": "hidden",
+    "window.commandCenter": false,
+    "window.titleBarStyle": "custom",
+
+    "editor.fontFamily": "Hack",
+    "editor.mouseWheelScrollSensitivity": 5,
+    "editor.fontSize": 21,
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.lineNumbers": "relative",
+    "editor.cursorSurroundingLines": 8,
+    "editor.scrollbar.horizontalScrollbarSize": 0,
+    "editor.scrollbar.verticalScrollbarSize": 0,
+
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+
+    "security.workspace.trust.enabled": false,
+
+    "breadcrumbs.enabled": false,
+
+    "explorer.confirmDelete": false,
+
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+    ],
+    "vim.enableNeovim": true,
+    "vim.foldfix": true,
+}

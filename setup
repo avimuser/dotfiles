@@ -13,3 +13,5 @@ find dot-* -depth -maxdepth 0 | while IFS= read -r line; do
         ln -s $dir/$line $HOME/$name
     fi
 done
+
+echo "Manually setup firefox"
