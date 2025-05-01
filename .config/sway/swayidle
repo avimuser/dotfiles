@@ -1,0 +1,5 @@
+timeout 300 'brillo -O && brillo -S 0 -u 200000' resume 'brillo -I -u 300000'
+timeout 360 'swaylock -f -c 000000'
+timeout 420 'swaymsg "output * power off"' resume 'swaymsg "output * power on"'
+timeout 480 'systemctl suspend'
+before-sleep 'swaylock -f -c 000000'
