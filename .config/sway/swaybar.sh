@@ -3,7 +3,7 @@
 echo '{ "version": 1 }'
 echo '['
 
-FG="#FFFFFFbb"
+FG="#FFFFFFcc"
 
 RED="#F4511E"
 GREEN="#7CB342"

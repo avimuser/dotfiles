@@ -10,10 +10,10 @@ set $files thunar
 set $browser firefox
 set $menu wmenu-run -bif "$font 15" -N $bg0 -n $fg0_dim -S $bg0 -s $fg0
 
-set $bg0     111111aa
-set $fg0     ffffffbb
+set $bg0     252525dd
+set $fg0     ffffffcc
 set $fg0_dim ffffff55
-set $font JetBrains Mono
+set $font Adwaita Mono
 
 include $HOME/.config/sway/keys.sway
 include /etc/sway/config.d/*
@@ -54,7 +54,8 @@ exec wlsunset -l 20 -L 85 -t 4500
 exec swayidle -wC $HOME/.config/sway/swayidle
 
 set $wobpipe /tmp/wob
-exec rm /tmp/wob && mkfifo /tmp/wob && tail -f $wobpipe | wob
+exec rm $wobpipe
+exec mkfifo $wobpipe && tail -f $wobpipe | wob
 
 input "1267:12780:ELAN07D5:00_04F3:31EC_Touchpad" {
     tap enabled
